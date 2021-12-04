@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60ADE2B3275C1FA20099D3FD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADE2B2275C1FA20099D3FD /* CircleImage.swift */; };
+		60ADE2B5275C23410099D3FD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADE2B4275C23410099D3FD /* MapView.swift */; };
+		60ADE2B7275C2BCE0099D3FD /* RACInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADE2B6275C2BCE0099D3FD /* RACInfo.swift */; };
 		60B4BFA9275958D700C61469 /* UMBC_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BFA8275958D700C61469 /* UMBC_AppApp.swift */; };
 		60B4BFAB275958D700C61469 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BFAA275958D700C61469 /* ContentView.swift */; };
 		60B4BFAD275958D900C61469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60B4BFAC275958D900C61469 /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60ADE2B2275C1FA20099D3FD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		60ADE2B4275C23410099D3FD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		60ADE2B6275C2BCE0099D3FD /* RACInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RACInfo.swift; sourceTree = "<group>"; };
 		60B4BFA5275958D700C61469 /* UMBC App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UMBC App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B4BFA8275958D700C61469 /* UMBC_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMBC_AppApp.swift; sourceTree = "<group>"; };
 		60B4BFAA275958D700C61469 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,7 +102,10 @@
 			children = (
 				60B4BFA8275958D700C61469 /* UMBC_AppApp.swift */,
 				60B4BFAA275958D700C61469 /* ContentView.swift */,
+				60ADE2B6275C2BCE0099D3FD /* RACInfo.swift */,
 				60B4BFAC275958D900C61469 /* Assets.xcassets */,
+				60ADE2B2275C1FA20099D3FD /* CircleImage.swift */,
+				60ADE2B4275C23410099D3FD /* MapView.swift */,
 				60B4BFAE275958D900C61469 /* Preview Content */,
 			);
 			path = "UMBC App";
@@ -258,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				60B4BFAB275958D700C61469 /* ContentView.swift in Sources */,
+				60ADE2B7275C2BCE0099D3FD /* RACInfo.swift in Sources */,
+				60ADE2B5275C23410099D3FD /* MapView.swift in Sources */,
 				60B4BFA9275958D700C61469 /* UMBC_AppApp.swift in Sources */,
+				60ADE2B3275C1FA20099D3FD /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
