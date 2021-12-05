@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Retriever Activities Center",
+        "phone": "4104551000",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71252,
+            "latitude": 39.25296
+        }
+    },
+    {
+        "id": 2,
+        "name": "Information Technology and Engineering",
+        "phone": "4104553500",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71426,
+            "latitude": 39.25389
+        }
+    }
+]
