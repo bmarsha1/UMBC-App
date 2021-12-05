@@ -11,7 +11,7 @@ struct BuildingDetail: View {
     var building : Building
     var body: some View {
         ScrollView{
-            MapView(building: building)
+            MapView(coordinate: building.locationCoordinate)
                 .frame(height: 300)
             CircleImage(image: building.image)
                 .offset(y: -100)

@@ -9,23 +9,23 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    var building: Building
+    var coordinate : CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()
     var body: some View {
         Map(
             coordinateRegion: $region,
-            annotationItems: [building]
+            annotationItems: buildings
         ) {item in
             MapAnnotation (
-                coordinate: building.locationCoordinate,
+                coordinate: item.locationCoordinate,
                 content: {
                     Image(systemName: "pin.circle.fill").foregroundColor(.red)
-                    Text(building.name).font(.system(size: 10))
+                    Text(item.name).font(.system(size: 10))
                 }
             )
         }
             .onAppear {
-                setRegion(building.locationCoordinate)
+                setRegion(coordinate)
             }
     }
     private func setRegion(_ coordinate: CLLocationCoordinate2D){
@@ -38,6 +38,6 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(building: buildings[0])
+        MapView(coordinate: CLLocationCoordinate2D(latitude: 39.25296, longitude: -76.71252))
     }
 }
