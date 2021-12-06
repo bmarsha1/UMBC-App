@@ -18,6 +18,7 @@
 		6068C2CD275D7CAA00826E20 /* schedule.json in Resources */ = {isa = PBXBuildFile; fileRef = 6068C2CC275D7CAA00826E20 /* schedule.json */; };
 		6068C2CF275D7E2000826E20 /* ClassRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6068C2CE275D7E2000826E20 /* ClassRow.swift */; };
 		6068C2D1275D874100826E20 /* ClassList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6068C2D0275D874100826E20 /* ClassList.swift */; };
+		6068C2D3275D968B00826E20 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6068C2D2275D968B00826E20 /* LocationManager.swift */; };
 		60ADE2B3275C1FA20099D3FD /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADE2B2275C1FA20099D3FD /* CircleImage.swift */; };
 		60ADE2B5275C23410099D3FD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60ADE2B4275C23410099D3FD /* MapView.swift */; };
 		60B4BFA9275958D700C61469 /* UMBC_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BFA8275958D700C61469 /* UMBC_AppApp.swift */; };
@@ -58,6 +59,8 @@
 		6068C2CC275D7CAA00826E20 /* schedule.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schedule.json; sourceTree = "<group>"; };
 		6068C2CE275D7E2000826E20 /* ClassRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRow.swift; sourceTree = "<group>"; };
 		6068C2D0275D874100826E20 /* ClassList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassList.swift; sourceTree = "<group>"; };
+		6068C2D2275D968B00826E20 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6068C2D4275D9C3100826E20 /* UMBC-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "UMBC-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		60ADE2B2275C1FA20099D3FD /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		60ADE2B4275C23410099D3FD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		60B4BFA5275958D700C61469 /* UMBC App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UMBC App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -111,6 +114,7 @@
 			children = (
 				60ADE2B2275C1FA20099D3FD /* CircleImage.swift */,
 				60ADE2B4275C23410099D3FD /* MapView.swift */,
+				6068C2D2275D968B00826E20 /* LocationManager.swift */,
 				6068C2B1275D335800826E20 /* Building.swift */,
 				6068C2B3275D353500826E20 /* BuildingData.swift */,
 				6068C2B9275D39F100826E20 /* BuildingRow.swift */,
@@ -154,6 +158,7 @@
 		60B4BFA7275958D700C61469 /* UMBC App */ = {
 			isa = PBXGroup;
 			children = (
+				6068C2D4275D9C3100826E20 /* UMBC-App-Info.plist */,
 				6068C2C7275D759E00826E20 /* Student */,
 				6068C2B5275D38C000826E20 /* Resources */,
 				60B4BFA8275958D700C61469 /* UMBC_AppApp.swift */,
@@ -332,6 +337,7 @@
 				6068C2BA275D39F100826E20 /* BuildingRow.swift in Sources */,
 				6068C2B4275D353500826E20 /* BuildingData.swift in Sources */,
 				60ADE2B5275C23410099D3FD /* MapView.swift in Sources */,
+				6068C2D3275D968B00826E20 /* LocationManager.swift in Sources */,
 				60B4BFA9275958D700C61469 /* UMBC_AppApp.swift in Sources */,
 				60ADE2B3275C1FA20099D3FD /* CircleImage.swift in Sources */,
 				6068C2C9275D75CA00826E20 /* ClassData.swift in Sources */,
@@ -495,8 +501,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UMBC App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UMBC-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -523,8 +531,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UMBC App/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "UMBC-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

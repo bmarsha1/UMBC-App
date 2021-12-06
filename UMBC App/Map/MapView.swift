@@ -10,8 +10,9 @@ import MapKit
 
 struct MapView: UIViewRepresentable {
     var coordinate: CLLocationCoordinate2D
+    @State var locationManager = LocationManager()
     func makeUIView(context: Context) -> MKMapView {
-        MKMapView()
+        return MKMapView()
     }
     func updateUIView(_ uiView: MKMapView, context: Context) {
         let region = MKCoordinateRegion(
