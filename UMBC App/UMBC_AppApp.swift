@@ -11,7 +11,7 @@ import SwiftUI
 struct UMBC_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            BuildingList()
+            ContentView()
         }
     }
 }
