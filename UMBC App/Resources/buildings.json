@@ -18,5 +18,235 @@
             "longitude": -76.71426,
             "latitude": 39.25389
         }
+    },
+    {
+        "id": 3,
+        "name": "Engineering",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71399,
+            "latitude": 39.25454
+        }
+    },
+    {
+        "id": 4,
+        "name": "Fine Arts",
+        "phone": "4104552150",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71354,
+            "latitude": 39.25512
+        }
+    },
+    {
+        "id": 5,
+        "name": "Performing Arts and Humanities",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71504,
+            "latitude": 39.25527
+        }
+    },
+    {
+        "id": 6,
+        "name": "Administration",
+        "phone": "4104551000",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71352,
+            "latitude": 39.25310
+        }
+    },
+    {
+        "id": 7,
+        "name": "Sherman Hall",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71320,
+            "latitude": 39.25327
+        }
+    },
+    {
+        "id": 8,
+        "name": "Sondheim Hall",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71284,
+            "latitude": 39.25339
+        }
+    },
+    {
+        "id": 9,
+        "name": "Math and Psychology",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71240,
+            "latitude": 39.25413
+        }
+    },
+    {
+        "id": 10,
+        "name": "University Center",
+        "phone": "4104551000",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71333,
+            "latitude": 39.25442
+        }
+    },
+    {
+        "id": 11,
+        "name": "Meyerhoff",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71303,
+            "latitude": 39.25498
+        }
+    },
+    {
+        "id": 12,
+        "name": "Biological Sciences",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71226,
+            "latitude": 39.25468
+        }
+    },
+    {
+        "id": 13,
+        "name": "Lecture Hall 1",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71180,
+            "latitude": 39.25481
+        }
+    },
+    {
+        "id": 14,
+        "name": "Commons",
+        "phone": "4104551000",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71083,
+            "latitude": 39.25500
+        }
+    },
+    {
+        "id": 15,
+        "name": "Interdiscipplinary Life Sciences",
+        "phone": "4104551000",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71119,
+            "latitude": 39.25393
+        }
+    },
+    {
+        "id": 16,
+        "name": "Physics",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.70956,
+            "latitude": 39.25453
+        }
+    },
+    {
+        "id": 17,
+        "name": "Public Policy",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.70909,
+            "latitude": 39.25522
+        }
+    },
+    {
+        "id": 18,
+        "name": "Susquehanna Hall",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.70858,
+            "latitude": 39.25567
+        }
+    },
+    {
+        "id": 19,
+        "name": "True Grit's",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.70774,
+            "latitude": 39.25576
+        }
+    },
+    {
+        "id": 20,
+        "name": "Patapsco Hall",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.70635,
+            "latitude": 39.25498
+        }
+    },
+    {
+        "id": 21,
+        "name": "Potomac Hall",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.70664,
+            "latitude": 39.25600
+        }
+    },
+    {
+        "id": 22,
+        "name": "Chesapeake Hall",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.70858,
+            "latitude": 39.25680
+        }
+    },
+    {
+        "id": 23,
+        "name": "Harbor Hall",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.70845,
+            "latitude": 39.25730
+        }
+    },
+    {
+        "id": 24,
+        "name": "Erickson Hall",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.70919,
+            "latitude": 39.25705
+        }
+    },
+    {
+        "id": 25,
+        "name": "Albin O. Kuhn Library and Gallery",
+        "phone": "",
+        "imageName": "Building",
+        "coordinates": {
+            "longitude": -76.71150,
+            "latitude": 39.25660
+        }
     }
 ]
