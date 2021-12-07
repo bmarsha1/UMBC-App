@@ -14,6 +14,61 @@
             0,
             2
         ],
-        "buildingID": 2
+        "buildingID": 2,
+        "room": "227"
+    },
+    {
+        "id": 2,
+        "name": "CMSC 331",
+        "start": {
+            "hour": 10,
+            "minute": 0
+        },
+        "end": {
+            "hour": 11,
+            "minute": 15
+        },
+        "days": [
+            0,
+            2
+        ],
+        "buildingID": 15,
+        "room": "201"
+    },
+    {
+        "id": 3,
+        "name": "CMSC 341",
+        "start": {
+            "hour": 10,
+            "minute": 0
+        },
+        "end": {
+            "hour": 11,
+            "minute": 15
+        },
+        "days": [
+            1,
+            3
+        ],
+        "buildingID": 15,
+        "room": "201"
+    },
+    {
+        "id": 4,
+        "name": "PHYS 122",
+        "start": {
+            "hour": 1,
+            "minute": 0
+        },
+        "end": {
+            "hour": 2,
+            "minute": 15
+        },
+        "days": [
+            1,
+            3
+        ],
+        "buildingID": 3,
+        "room": "101"
     }
 ]

@@ -25,6 +25,8 @@ struct ClassRow: View {
             Text(course.building!.name)
                 .font(.system(size: 15))
                 .fontWeight(.bold)
+            Text(course.room)
+                .font(.system(size: 15))
         }
     }
 }

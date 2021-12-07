@@ -28,6 +28,10 @@
 		60B4BFBA275958D900C61469 /* UMBC_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BFB9275958D900C61469 /* UMBC_AppTests.swift */; };
 		60B4BFC4275958D900C61469 /* UMBC_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BFC3275958D900C61469 /* UMBC_AppUITests.swift */; };
 		60B4BFC6275958D900C61469 /* UMBC_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B4BFC5275958D900C61469 /* UMBC_AppUITestsLaunchTests.swift */; };
+		60FEAE99275EFF9800A53052 /* UMBCBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FEAE98275EFF9800A53052 /* UMBCBanner.swift */; };
+		60FEAE9D275F0E1A00A53052 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FEAE9C275F0E1A00A53052 /* LoginScreen.swift */; };
+		60FEAE9F275F132A00A53052 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FEAE9E275F132A00A53052 /* LoginButton.swift */; };
+		60FEAEA3275F1E6200A53052 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60FEAEA2275F1E6200A53052 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +77,10 @@
 		60B4BFBF275958D900C61469 /* UMBC AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UMBC AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60B4BFC3275958D900C61469 /* UMBC_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMBC_AppUITests.swift; sourceTree = "<group>"; };
 		60B4BFC5275958D900C61469 /* UMBC_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMBC_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		60FEAE98275EFF9800A53052 /* UMBCBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UMBCBanner.swift; sourceTree = "<group>"; };
+		60FEAE9C275F0E1A00A53052 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		60FEAE9E275F132A00A53052 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		60FEAEA2275F1E6200A53052 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,9 +171,13 @@
 				6068C2B5275D38C000826E20 /* Resources */,
 				60B4BFA8275958D700C61469 /* UMBC_AppApp.swift */,
 				60B4BFAA275958D700C61469 /* ContentView.swift */,
+				60FEAEA2275F1E6200A53052 /* MainView.swift */,
+				60FEAE9C275F0E1A00A53052 /* LoginScreen.swift */,
+				60FEAE9E275F132A00A53052 /* LoginButton.swift */,
 				60B4BFAC275958D900C61469 /* Assets.xcassets */,
 				6068C2B8275D39AE00826E20 /* Map */,
 				60B4BFAE275958D900C61469 /* Preview Content */,
+				60FEAE98275EFF9800A53052 /* UMBCBanner.swift */,
 			);
 			path = "UMBC App";
 			sourceTree = "<group>";
@@ -328,10 +340,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6068C2D1275D874100826E20 /* ClassList.swift in Sources */,
+				60FEAEA3275F1E6200A53052 /* MainView.swift in Sources */,
 				6068C2BE275D3D3F00826E20 /* BuildingDetail.swift in Sources */,
 				6068C2CB275D763800826E20 /* Class.swift in Sources */,
 				60B4BFAB275958D700C61469 /* ContentView.swift in Sources */,
 				6068C2CF275D7E2000826E20 /* ClassRow.swift in Sources */,
+				60FEAE9D275F0E1A00A53052 /* LoginScreen.swift in Sources */,
 				6068C2BC275D3C2200826E20 /* BuildingList.swift in Sources */,
 				6068C2B2275D335800826E20 /* Building.swift in Sources */,
 				6068C2BA275D39F100826E20 /* BuildingRow.swift in Sources */,
@@ -341,6 +355,8 @@
 				60B4BFA9275958D700C61469 /* UMBC_AppApp.swift in Sources */,
 				60ADE2B3275C1FA20099D3FD /* CircleImage.swift in Sources */,
 				6068C2C9275D75CA00826E20 /* ClassData.swift in Sources */,
+				60FEAE9F275F132A00A53052 /* LoginButton.swift in Sources */,
+				60FEAE99275EFF9800A53052 /* UMBCBanner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

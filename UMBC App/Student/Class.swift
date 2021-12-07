@@ -18,6 +18,8 @@ struct Class: Hashable, Codable, Identifiable {
     var building : Building? {
         buildings.filter({$0.id == buildingID}).first
     }
+    
+    var room : String
           
     struct Time : Hashable, Codable {
         var hour : Int

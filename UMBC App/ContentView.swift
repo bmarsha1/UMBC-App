@@ -9,23 +9,12 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
+    @State var authenticated = false;
     var body: some View {
-        TabView {
-            ClassList()
-                .tabItem() {
-                    Image(systemName: "calendar")
-                    Text("Schedule")
-                }
-            BuildingList()
-                .tabItem() {
-                    Image(systemName: "building.columns.fill")
-                    Text("Buildings")
-                }
-            MapView(coordinate: CLLocationCoordinate2D(latitude: 39.25296, longitude: -76.71252))
-                .tabItem() {
-                    Image(systemName: "map.fill")
-                    Text("Map")
-                }
+        if self.authenticated {
+            MainView()
+        } else {
+            LoginScreen(loggedIn: $authenticated)
         }
     }
 }
